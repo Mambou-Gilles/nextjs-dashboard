@@ -140,6 +140,17 @@ export async function fetchInvoicesPages(query: string) {
   }
 }
 
+export async function fetchAllInvoices() {
+  try {
+    const data = await sql<InvoicesTable>`SELECT id FROM invoices`;
+    return data.rows; // Return the array of invoices
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch all invoices.');
+  }
+}
+
+
 export async function fetchInvoiceById(id: string) {
   try {
     const data = await sql<InvoiceForm>`

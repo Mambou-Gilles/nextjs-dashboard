@@ -2,7 +2,8 @@
  
 const nextConfig = {
     experimental: {
-      ppr: 'incremental',
+      // ppr: 'incremental',
+      ppr: false,
     },
   };
    
