@@ -8,20 +8,20 @@
  */
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/dashboard/loading"],{
 
-/***/ "(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false!":
+/***/ "(app-pages-browser)/./node_modules/.pnpm/next@15.0.0-canary.177_react-dom@19.0.0-rc-0751fac7-20241002_react@19.0.0-rc-0751fac7-2024100_s432qgeui4axa74sfqemfixr4u/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false!":
 /*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false! ***!
+  !*** ./node_modules/.pnpm/next@15.0.0-canary.177_react-dom@19.0.0-rc-0751fac7-20241002_react@19.0.0-rc-0751fac7-2024100_s432qgeui4axa74sfqemfixr4u/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false! ***!
   \***************************************************************************************************************************************************************************************************************************************************/
-/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 /***/ })
 
 },
-/******/ function(__webpack_require__) { // webpackRuntimeModules
-/******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false!"); });
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ __webpack_require__.O(0, ["main-app"], () => (__webpack_exec__("(app-pages-browser)/./node_modules/.pnpm/next@15.0.0-canary.177_react-dom@19.0.0-rc-0751fac7-20241002_react@19.0.0-rc-0751fac7-2024100_s432qgeui4axa74sfqemfixr4u/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=false!")));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
