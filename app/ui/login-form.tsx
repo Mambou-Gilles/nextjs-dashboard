@@ -8,23 +8,12 @@ import {
 } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from './button';
-<<<<<<< HEAD
 import { useFormState, useFormStatus } from 'react-dom';
 import { authenticate } from '@/app/lib/actions';
 
 export default function LoginForm() {
   const [errorMessage, dispatch] = useFormState(authenticate, undefined);
 
-=======
-import { useActionState } from 'react';
-import { authenticate } from '@/app/lib/actions';
-
-export default function LoginForm() {
-  const [errorMessage, formAction, isPending] = useActionState(
-    authenticate,
-    undefined,
-  )
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4
   return (
     <form action={dispatch} className="space-y-3">
       <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
@@ -72,24 +61,12 @@ export default function LoginForm() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
         <LoginButton />
         <div
           className="flex h-8 items-end space-x-1"
           aria-live="polite"
           aria-atomic="true"
         >
-=======
-        <Button className="mt-4 w-full" aria-disabled={isPending}>
-          Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
-        </Button>
-        <div 
-          className="flex h-8 items-end space-x-1"
-          aria-live="polite"
-          aria-atomic="true"
-          >
-          {/* Add form errors here */}
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4
           {errorMessage && (
             <>
               <ExclamationCircleIcon className="h-5 w-5 text-red-500" />
@@ -101,7 +78,6 @@ export default function LoginForm() {
     </form>
   );
 }
-<<<<<<< HEAD
 
 function LoginButton() {
   const { pending } = useFormStatus();
@@ -111,5 +87,3 @@ function LoginButton() {
     </Button>
   );
 }
-=======
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4

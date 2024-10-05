@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -17,41 +16,8 @@
     "plugins": [
       {
         "name": "next"
-=======
-    "compilerOptions": {
-      "target": "ES2017",
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "allowJs": true,
-      "skipLibCheck": true,
-      "strict": true,
-      "noEmit": true,
-      "esModuleInterop": true,
-      "module": "esnext",
-      "moduleResolution": "bundler",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "jsx": "preserve",
-      "incremental": true,
-      "plugins": [
-        {
-          "name": "next"
-        }
-      ],
-      "baseUrl": ".",
-      "paths": {
-        "@/*": ["./*"]
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4
       }
-    },
-    "include": [
-      "next-env.d.ts",
-      "**/*.ts",
-      "**/*.tsx",
-      ".next/types/**/*.ts",
-      "app/lib/placeholder-data.ts",
-      "scripts/seed.js"
     ],
-<<<<<<< HEAD
     "paths": {
       "@/*": ["./*"]
     }
@@ -66,8 +32,3 @@
   ],
   "exclude": ["node_modules"]
 }
-=======
-    "exclude": ["node_modules"]
-  }
-  
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4

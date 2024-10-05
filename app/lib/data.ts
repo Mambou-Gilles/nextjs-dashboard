@@ -228,7 +228,6 @@ export async function fetchFilteredCustomers(query: string) {
     throw new Error('Failed to fetch customer table.');
   }
 }
-<<<<<<< HEAD
 
 export async function getUser(email: string) {
   try {
@@ -239,5 +238,3 @@ export async function getUser(email: string) {
     throw new Error('Failed to fetch user.');
   }
 }
-=======
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4

@@ -16,7 +16,6 @@
     "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
-<<<<<<< HEAD
     "clsx": "^2.0.0",
     "next": "^14.0.2",
     "next-auth": "^5.0.0-beta.17",
@@ -28,18 +27,6 @@
     "typescript": "5.2.2",
     "use-debounce": "^10.0.0",
     "zod": "^3.22.2"
-=======
-    "clsx": "^2.1.1",
-    "next": "15.0.0-canary.177",
-    "next-auth": "5.0.0-beta.22",
-    "postcss": "8.4.38",
-    "react": "19.0.0-rc-0751fac7-20241002",
-    "react-dom": "19.0.0-rc-0751fac7-20241002",
-    "tailwindcss": "3.4.4",
-    "typescript": "5.5.2",
-    "use-debounce": "^10.0.1",
-    "zod": "^3.23.8"
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.1",

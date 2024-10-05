@@ -180,13 +180,9 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-<<<<<<< HEAD:app/lib/placeholder-data.js
 module.exports = {
   users,
   customers,
   invoices,
   revenue,
 };
-=======
-export { users, customers, invoices, revenue };
->>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4:app/lib/placeholder-data.ts
