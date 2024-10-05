@@ -18,8 +18,11 @@ export default async function CardWrapper() {
   const {
     totalPaidInvoices,
     totalPendingInvoices,
+<<<<<<< HEAD
     numberOfInvoices,
     numberOfCustomers
+=======
+>>>>>>> e44af159ce14d1e2c710eb8ee5694267456158d4
   } = await fetchCardData();
   return (
     <>
